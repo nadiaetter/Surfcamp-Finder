@@ -1,0 +1,23 @@
+.input-suche {
+  width: 90%;
+  height: 3em;
+  background-color: #fff;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  padding-left: 0.5em;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: black;
+  font: {
+    family: $main-font;
+    size: 22px;
+    weight: 400; //Regular
+  }
+  border: {
+    style: solid;
+    width: 2px;
+    color: $main-color;
+    radius: 7px;
+  }
+}

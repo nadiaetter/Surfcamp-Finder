@@ -1,0 +1,130 @@
+$main-font: "Open Sans";
+$secondary-font: "Work Sans";
+
+h1 {
+  color: $main-color;
+  padding-top: 1em;
+  font: {
+    family: $main-font;
+    size: 22px;
+    weight: 700; //Bold
+    }
+}
+
+.title-box {
+  color: black;
+  margin-left: 2%;
+  z-index: 4;
+  font: {
+    family: $main-font;
+    size: 22px;
+    weight: 600; //Semibold
+  }
+}
+
+.text-teaser {
+  color: $text-grey;
+  margin-left: 4%;
+  font: {
+    family: $main-font;
+    size: 17px;
+    weight: 400; //Regular
+  }
+}
+
+.text {
+  color: black;
+  font: {
+    family: $main-font;
+    size: 17px;
+    weight: 400; //Regular
+  }
+}
+
+@mixin button-text() {
+  color: $main-color;
+  text-transform: uppercase;
+  font: {
+    family: $secondary-font;
+    size: 19px;
+    weight: 500; //Medium
+  }
+}
+
+@mixin button-text-filter() {
+  color: $main-color;
+  font: {
+    family: $secondary-font;
+    size: 19px;
+    weight: 400; //Medium
+  }
+}
+
+.category {
+  color: $main-color;
+  text-transform: uppercase;
+  margin-left: 2%;
+  font: {
+    family: $secondary-font;
+    size: 14px;
+    weight: 400; //Regular
+  }
+}
+
+.font-nav-big {
+  color: $main-color;
+  font: {
+    family: $secondary-font;
+    size: 30px;
+    weight: 600; //Semibold
+  }
+}
+
+.font-nav-small {
+  color: black;
+  font: {
+    family: $secondary-font;
+    size: 18px;
+    weight: 300; //Light
+  }
+}
+
+.title-in-filters {
+  color: $main-color;
+  font: {
+    family: $main-font;
+    size: 24px;
+    weight: 700; //Bold
+  }
+}
+
+.text-in-filters {
+  color: $main-color;
+  font: {
+    family: $main-font;
+    size: 22px;
+    weight: 300; //Light
+  }
+}
+
+.title-clickable {
+  background-color: white;
+  padding: 0;
+  border: {
+    style: none;
+  }
+}
+
+.footerButton {
+  background-color: $main-color-pale;
+  padding: 0;
+  border: {
+    style: none;
+  }
+}
+
+.linkInText {
+  color: $main-color;
+  font-weight: bold;
+  text-decoration: none;
+}

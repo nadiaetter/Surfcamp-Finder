@@ -1,0 +1,20 @@
+@import "partials/colors", "partials/font-styles", "partials/mixin", "partials/list-elements", "partials/map", "partials/footer", "partials/navbar", "partials/suche"; // @include google-font ("Open+Sans", "Work Sans");
+
+.main-button {
+  @include button;
+  @include button-text;
+}
+
+.filter-button {
+  @include filter-button;
+  @include button-text-filter;
+}
+
+body {
+  margin: 0;
+}
+
+.home {
+  margin-left: 3%;
+  margin-right: 3%;
+}
