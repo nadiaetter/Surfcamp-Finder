@@ -1,3 +1,8 @@
+@mixin google-font($font) {
+  $font: unquote($font);
+  @import url('https://fonts.googleapis.com/css?family=#{$font}')
+}
+
 $main-font: "Open Sans";
 $secondary-font: "Work Sans";
 
@@ -61,7 +66,7 @@ h1 {
   }
 }
 
-.category {
+@mixin category() {
   color: $main-color;
   text-transform: uppercase;
   margin-left: 2%;

@@ -1,4 +1,4 @@
-@import "partials/colors", "partials/font-styles", "partials/mixin", "partials/list-elements", "partials/map", "partials/footer", "partials/navbar", "partials/suche"; // @include google-font ("Open+Sans", "Work Sans");
+@import "partials/colors", "partials/font-styles", "partials/list-elements", "partials/map", "partials/footer", "partials/navbar", "partials/suche", "partials/filters", "partials/singleElement"; // @include google-font ("Open+Sans", "Work Sans");
 
 .main-button {
   @include button;
@@ -10,6 +10,12 @@
   @include button-text-filter;
 }
 
+.button-single-element {
+  @include button;
+  @include button-text;
+  width: 90% !important;
+}
+
 body {
   margin: 0;
 }
@@ -17,4 +23,15 @@ body {
 .home {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.category-single-element {
+  @include category;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.category {
+  @include category;
 }

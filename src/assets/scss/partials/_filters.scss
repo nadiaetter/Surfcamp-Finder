@@ -1,0 +1,21 @@
+.filter-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+@mixin filter-button() {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 1.5%;
+  background-color: #fff;
+  border: {
+    style: solid;
+    width: 2px;
+    color: $main-color;
+    radius: 7px;
+  }
+}

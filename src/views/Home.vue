@@ -5,7 +5,7 @@
     <button @click="goToCountry()" class="title-clickable">
       <h1>Länder</h1>
     </button>
-
+<!-- Start Sidescroll -->
     <div class="slider">
       <div class="container-slider">
         <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-
+<!-- End Sidescroll -->
     <button @click="goToFavorites()" class="title-clickable">
       <h1>Beliebteste</h1>
     </button>
