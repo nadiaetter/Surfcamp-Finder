@@ -6,7 +6,6 @@
         <img class="nav-element" src="../assets/img/search.png">
       </router-link>
     </div>
-
       <router-link to="/">
         <img id="pinecone" src="../assets/img/pinecone.png">
       </router-link>
@@ -45,15 +44,9 @@
       </div>
     </div>
   </div>
-
-
 </template>
 
 <script>
-
-const Child = {
-  template: '#childarea'
-};
 
 export default {
   name: 'navigation',
@@ -65,12 +58,9 @@ export default {
   },
 
   methods: {
-    goHome() {
-      this.$router.push({name: 'home'})
-    },
     toggleShow() {
       this.isShowing=!this.isShowing;
-    },
+    }
   }
 }
 
@@ -78,6 +68,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
-
 </style>

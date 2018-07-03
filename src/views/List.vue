@@ -7,18 +7,21 @@
         <button class="filter-button">Reisemonat</button>
       </div>
         <button class="main-button" v-bind:href="page">Mehr Filter</button>
-    <div> <!-- Hier werden die Suchresultate aufgezeigt -->
+    <div> <!-- Area Elements -->
 
-      <!-- Das einzelne Element -->
+      <!-- Start Single Element Element -->
       <div class="flexbox-single-elements">
+        <!-- <img class="single-element-like" src="../assets/img/like.png"> -->
         <div class="single-element">
-          <img class="single-element-img" src="../assets/img/portugal_03.jpg">
-          <img class="single-element-like" src="../assets/img/like.png">
-          <p class="category">Kategorie</p>
-          <p class="single-element-title">Name des Camps</p>
-          <p class="text-teaser">Teaser-Text</p>
+          <img class="single-element-img" src="../assets/img/zarautz01.jpg">
+          <p class="category">Surf & Yoga</p>
+          <p class="single-element-title">Surf & Yoga Camp Le Pin Sec</p>
+          <p class="text-teaser">Das Surf & Yoga Camp in Le Pin Sec verkörpert ein neues Konzept, das Surfen, Yoga und gutes Essen verbindet. Zudem ist das Camp direkt am langen Sandstrand gelegen, gleich hinter einer Düne.</p>
+          <div class="fade"></div>
         </div>
       </div>
+      <!-- End Single Element -->
+
     </div>
     <div class="footer">
       <button @click="goToUeber()" class="footerButton">

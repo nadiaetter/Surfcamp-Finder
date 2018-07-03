@@ -25,6 +25,7 @@ h1 {
 .text-teaser {
   color: $text-grey;
   margin-left: 4%;
+  margin-top: 0;
   font: {
     family: $main-font;
     size: 17px;
@@ -64,6 +65,8 @@ h1 {
   color: $main-color;
   text-transform: uppercase;
   margin-left: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
   font: {
     family: $secondary-font;
     size: 14px;
