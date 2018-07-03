@@ -27,11 +27,11 @@
     </div>
     <!-- End Sidescroll 1 -->
 
-    <button class="button-single-element">Unterkunft +</button>
+    <button class="button-single-element"><div>Unterkunft</div> <div>+</div></button>
 
 
     <p class="text">Beschreibung Region</p>
-    <button class="button-single-element">Verpflegung +</button>
+    <button class="button-single-element"><div>Verpflegung</div> <div>+</div></button>
 
     <!-- Start Sidescroll 2-->
     <div class="slider">
@@ -49,8 +49,8 @@
     </div>
     <!-- End Sidescroll 2 -->
 
-    <button class="button-single-element">Surfkurs +</button>
-    <button class="button-single-element">Aktivitäten +</button>
+    <button class="button-single-element"><div>Surfkurs</div> <div>+</div></button>
+    <button class="button-single-element"><div>Aktivitäten</div> <div>+</div></button>
 
 
     <!-- Start Sidescroll 3-->
@@ -70,12 +70,12 @@
     <!-- End Sidescroll 3 -->
 
 
-    <button class="button-single-element">Preise +</button>
+    <button class="button-single-element"><div>Preise</div> <div>+</div></button>
 
     <div>Karte</div>
-    <button class="button-single-element">Anreise +</button>
+    <button class="button-single-element"><div>Anreise</div> <div>+</div></button>
 
-    <button class="button-single-element">Kontakt</button>
+    <button class="button-single-element"><div>Kontakt</div> <div>+</div></button>
   </div>
   <div class="footer">
     <button @click="goToUeber()" class="footerButton">

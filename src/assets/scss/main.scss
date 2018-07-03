@@ -13,7 +13,11 @@
 .button-single-element {
   @include button;
   @include button-text;
-  width: 90% !important;
+  width: 95% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5%; 
 }
 
 body {
