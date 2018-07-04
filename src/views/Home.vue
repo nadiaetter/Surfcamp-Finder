@@ -64,9 +64,9 @@
         <p class="title-box">Surfcamp</p>
       </div>
     </div>
-
-    <button class="main-button" @click="goToFavorites()">Beliebteste</button>
-    <br>
+    <div class="flex-main-button">
+      <button class="main-button" @click="goToFavorites()">Beliebteste</button>
+    </div>
 
     <button @click="goToKategorien()" class="title-clickable">
         <h1>Kategorien</h1>
