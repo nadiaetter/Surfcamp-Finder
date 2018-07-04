@@ -1,0 +1,32 @@
+{
+  "id": "camp05",
+  "main-image": "./img/gazilien01.jpg",
+  "name": "Surfhouse Galizien",
+  "category": "Surf & Yoga",
+  "country": "Spanien",
+  "lead": "Surfen, Chillen & leere Line-Ups!",
+  "single-page": {
+    "list": ["Viele Surfspots mit Breaks für alle Levels", "Riesiger Garten mit eigenem Waldstück und chilligen Hängematten", "Mit Aktivitäten wie Yoga, Volleyball, Fußball, Wandern, Angel- & Fahrradverleih", "WLAN im ganzen Haus! Jedes Zimmer mit eigenem Bad, großes Wohnzimmer & Küche", "Gelegen zwischen der Atlantikküste und den Bergen mit atemberaubender Aussicht"],
+    "slider01": ["./img/gazilien02.jpg", "./img/gazilien03.jpg", "./img/gazilien04.jpg"],
+    "accommondation": "Das Surfhouse Galizien ist modern und gemütlich eingerichtet und verfügt über 6 Zimmer, 5 Doppelzimmer und eines mit 2 Einzelbetten. Dabei hat jeder Raum sein eigenes Badezimmer. In chilligen Kingsize-Betten schläft es sich super, so dass ihr ausgeruht in den nächsten Surftag starten könnt. Alle Zimmer sind lichtdurchflutet und geräumig, mit viel Platz für euer Gepäck und zum Entspannen.",
+    "details": "In Galizien gibt es den perfekten Mix aus Surf, Strand, Bergen, Natur und Kultur. Und dazu ist die Region vom Massentourismus weiterhin verschont geblieben. Wenn man dazu noch die optimalen Surfbedingungen und die Fülle von Surfspots nimmt, ist Galizien der perfekte Ort, um deinen Surfurlaub zu verbringen!",
+    "meals": "Die wichtigste Mahlzeit am Tag ist in dem von uns vermittelten Surfhouse Galizien im Preis inbegriffen. Es gibt leckere, frische Brötchen, Wurst, Käse, Marmelade und Obst. Natürlich darf auch Kaffee und Tee nicht fehlen. Im Esszimmer steht ein großer Tisch, an dem ihr euch euer Frühstück schmecken lassen könnt, oder ihr setzt euch in den Garten und genießt die Sonne.",
+    "surfcourse": "Die Region Galizien gilt als die wellensicherste Region in Spanien. Klar, dass die Surfkurse hier für jedes Level geeignet sind und somit den Anfängern den perfekten Einstieg ermöglichen und die Fortgeschrittenen Surfer hier ihre Skills verbessern können!",
+    "activities": "In den letzten Jahren haben immer mehr Surfer das Yoga für sich entdeckt. Beim Surfen brauchst du sowohl Kraft, Ausdauer als auch Gleichgewicht und Koordination: Eigenschaften, die beim Yoga optimal geschult werden. Mehr Flexibilität und eine bessere Körperspannung können dein Surfen deutlich verbessern. Wir arbeiten mit erfahrenen Yogalehrern zusammen, die genau wissen was die richtige Kombination aus Stretching, Atmung und Konzentration, sowie Entspannung ausmacht.",
+    "prices": "1 Woche inkl. Frühstück schon ab 280 €!",
+    "arrival": "Die nächst gelegenen Flughäfen befinden sich in Santiago de Compostela (55 min, 79 km), in Vigo (75 min, 99,2 km), in La Coruña (90 min, 134 km) und in O Porto / Portugal (140 min, 235 km).",
+    "contact": "Carretera Playa s/n, 15552 Valdoviño, C, Spanien"
+  },
+
+  "location" : {
+                        "lat" : 43.612499,
+                        "lng" : -8.1503827
+                     },
+
+  "price": 280,
+  "month": ["April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November"],
+  "surflevel": ["Einsteiger", "Anfänger", "Fortgeschritten"],
+  "audience": ["Solo-Reisende", "Paare", "Familien", "No-Party"],
+  "accommondation": ["Surfhouse"],
+  "meals": ["Frühstück", "Frühstück & Abendessen"]
+}
