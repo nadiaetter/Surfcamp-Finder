@@ -1,5 +1,5 @@
 <template>
-  <div class="kategorien">
+  <div class="main">
     <div class="home">
     <h1>Kategorien</h1>
 

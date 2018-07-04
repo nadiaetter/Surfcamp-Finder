@@ -1,5 +1,5 @@
 <template>
-<div class="single">
+<div class="main">
   <p class="category-single-element">Kategorie</p>
   <div class="container">
     <img class="title-image-singleElement" src="../assets/img/morocco03.jpg">

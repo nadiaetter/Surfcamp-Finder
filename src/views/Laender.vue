@@ -1,5 +1,5 @@
 <template>
-  <div class="laender">
+  <div class="main">
     <div class="home">
     <h1>Länder</h1>
 

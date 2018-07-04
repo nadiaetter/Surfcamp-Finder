@@ -1,5 +1,5 @@
 <template>
-  <div class="karte">
+  <div class="main">
     <div class="home">
     <h1>OK, das wird die Karte.</h1>
   </div>

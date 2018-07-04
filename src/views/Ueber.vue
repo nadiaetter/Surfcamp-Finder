@@ -1,5 +1,5 @@
 <template>
-  <div class="ueber">
+  <div class="main">
         <div class="home">
     <h1>Über das Projekt</h1>
     <p class="text">Dieser Prototyp eines Surfcamp-Finders ist im Rahmen meiner Bachelorarbeit entstanden.

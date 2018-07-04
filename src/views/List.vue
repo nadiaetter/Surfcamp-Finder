@@ -1,6 +1,6 @@
 <template>
 <div class="main">
-  <navigation></navigation>
+  <div class="home">
   <div class="filter-area">
     <button class="filter-button">Land</button>
     <button class="filter-button">Surflevel</button>
@@ -26,7 +26,7 @@
 
   </div>
   <!-- End Area Elements -->
-
+</div>
   <div class="footer">
     <button @click="goToUeber()" class="footerButton">
         <p class="footer-text">Mehr zum Projekt</p>

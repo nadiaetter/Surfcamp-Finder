@@ -1,5 +1,16 @@
 @import "partials/colors", "partials/font-styles", "partials/list-elements", "partials/map", "partials/footer", "partials/navbar", "partials/suche", "partials/filters", "partials/singleElement"; // @include google-font ("Open+Sans", "Work Sans");
 
+ // ------ MAIN ELEMENTS ------//
+body {
+  margin: 0;
+}
+
+.home {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+ // ------ BUTTONS ------//
 .main-button {
   @include button;
   @include button-text;
@@ -21,15 +32,14 @@
   margin-bottom: 5%;
 }
 
-body {
-  margin: 0;
+.text-inButton {
+  @include text;
+  text-transform: none;
+  text-align: left;
+  margin-left: 5%;
 }
 
-.home {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
+ // ------ FONTS ------//
 .category-single-element {
   @include category;
   margin-top: 5%;
@@ -39,22 +49,6 @@ body {
 
 .category {
   @include category;
-}
-
-.title-image-singleElement {
-  @include long-element;
-  width: 95%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.long-element {
-  @include long-element;
-}
-
-.long-element-box {
-  @include long-element-box;
 }
 
 .title-box {
@@ -70,9 +64,19 @@ body {
   @include text;
 }
 
-.text-inButton {
-  @include text;
-  text-transform: none;
-  text-align: left;
-  margin-left: 5%;
+ // ------ BOXES AND ELEMENTS ------//
+.title-image-singleElement {
+  @include long-element;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.long-element {
+  @include long-element;
+}
+
+.long-element-box {
+  @include long-element-box;
 }

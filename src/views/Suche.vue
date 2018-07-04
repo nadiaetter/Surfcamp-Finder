@@ -1,5 +1,5 @@
 <template>
-  <div class="suche">
+  <div class="main">
     <div class="home">
     <h1 id="title-search">Ich suche...</h1>
     <input class="input-suche">
