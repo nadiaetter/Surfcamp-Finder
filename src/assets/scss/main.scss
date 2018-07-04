@@ -14,10 +14,11 @@
   @include button;
   @include button-text;
   width: 95% !important;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 5%; 
+  height: auto;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 body {
@@ -38,4 +39,40 @@ body {
 
 .category {
   @include category;
+}
+
+.title-image-singleElement {
+  @include long-element;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.long-element {
+  @include long-element;
+}
+
+.long-element-box {
+  @include long-element-box;
+}
+
+.title-box {
+  @include title-box;
+}
+
+.title-box-singleElement {
+  @include title-box;
+  margin-left: 5%;
+}
+
+.text {
+  @include text;
+}
+
+.text-inButton {
+  @include text;
+  text-transform: none;
+  text-align: left;
+  margin-left: 5%;
 }

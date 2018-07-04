@@ -16,7 +16,7 @@ h1 {
     }
 }
 
-.title-box {
+@mixin title-box() {
   color: black;
   margin-left: 2%;
   z-index: 4;
@@ -38,8 +38,10 @@ h1 {
   }
 }
 
-.text {
+@mixin text {
   color: black;
+  margin-top: 0;
+  margin-bottom: 5%;
   font: {
     family: $main-font;
     size: 17px;

@@ -1,3 +1,11 @@
-.container-content{
+.container-content {
+  padding: 3%;
+}
+
+
+.label-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 3%;
 }
