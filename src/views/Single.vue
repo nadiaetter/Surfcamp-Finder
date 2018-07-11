@@ -46,7 +46,7 @@
       <div>+</div>
     </div>
       <div v-if="showMeals">
-        <p class="text-inButton">Content für die Verpflegung</p>
+        <p class="text-inButton">Content Verpflegung</p>
       </div>
     </button>
 
