@@ -149,7 +149,9 @@
 <script>
 export default {
 
+
   data() {
+    this.requestData()
     return {
       showContact: false,
       showArrival: false,
@@ -187,7 +189,24 @@ export default {
     },
     toggleAccommondation() {
       this.showAccommondation = !this.showAccommondation;
-    }
+    },
+
+
+
+
+
+    requestData()
+    {
+  // GET /someUrl
+  this.$http.get('http://localhost:3000/camps').then(response => {
+
+    // get body data
+    this.someData = response.body;
+
+  }, response => {
+    // error callback
+  });
+}
   }
 }
 </script>

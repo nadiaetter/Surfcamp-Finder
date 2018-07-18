@@ -32,10 +32,10 @@
                 <button @click="toggleShow" class="nav-button">
                   <router-link to="/kategorien" class="nav-title">Kategorien</router-link>
                 </button>
-                <br>
+                <!-- <br>
                 <button @click="toggleShow" class="nav-button">
                   <router-link to="/karte" class="nav-title">Karte</router-link>
-                </button>
+                </button> -->
                 <br>
                 <button @click="toggleShow" class="nav-button-small">
                   <router-link to="/ueber" class="nav-title-small">Über das Projekt</router-link>

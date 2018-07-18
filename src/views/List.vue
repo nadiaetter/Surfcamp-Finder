@@ -2,7 +2,28 @@
 <div class="main">
   <div class="home">
     <div class="filter-area">
-      <button class="filter-button">Land</button>
+      <button class="filter-button" @click="ShowOverlay" >Land</button>
+
+      <div v-if="isShowing" class="overlayMenu" >
+        <button id="close-Nav-Button" @click="ShowOverlay">
+        </button>
+            <br>
+            <div class="nav-open">
+              <p>Frankreich</p>
+              <div class="flex-main-button">
+                <button class="main-button" @click="ShowOverlay">Resultate</button>
+              </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
       <button class="filter-button">Surflevel</button>
       <button class="filter-button">Reisemonat</button>
     </div>
@@ -39,11 +60,21 @@
 <script>
 export default {
 
+
+    data() {
+      return{
+        isShowing: false
+      }
+    },
+
   methods: {
     goToUeber() {
       this.$router.push({
         name: 'ueber'
       })
+    },
+    ShowOverlay() {
+      this.isShowing=!this.isShowing;
     }
   }
 }

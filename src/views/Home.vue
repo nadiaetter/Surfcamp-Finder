@@ -43,7 +43,7 @@
     <div class="container">
       <img class="long-element" src="../assets/img/portugal_03.jpg">
       <div class="long-element-box">
-        <p class="title-box">Surfcamp</p>
+        <p class="title-box">{{ camps[0].name }}</p>
           <!-- <div>
           <img class="like-front" src="../assets/img/like.png">
           <img class="like-front" src="../assets/img/like-active.png">
@@ -120,6 +120,17 @@
 <script>
 export default {
 
+  data(){
+    return {
+      camps: null
+    }
+  },
+
+  created() {
+    this.requestData()
+  },
+
+
   methods: {
     goToFavorites() {
       this.$router.push({
@@ -146,6 +157,20 @@ export default {
         name: 'ueber'
       })
     },
+    requestData()
+    {
+  // GET /someUrl
+  this.$http.get('http://localhost:3000/camps').then(response => {
+
+    // get body data
+    this.camps = response.body;
+
+    console.log(response.body)
+
+  }, response => {
+    // error callback
+  });
+}
   }
 }
 </script>
