@@ -1,46 +1,45 @@
 <template>
 <div class="main">
   <div class="home">
-    <div class="filter-area">
-      <button class="filter-button" @click="ShowOverlay" >Land</button>
+    <!-- <div class="filter-area">
+      <button class="filter-button" >Land</button>
 
-      <div v-if="isShowing" class="overlayMenu" >
-        <button id="close-Nav-Button" @click="ShowOverlay">
+      <div v-if="isShowing">
+        <button id="close-Nav-Button">
         </button>
             <br>
-            <div class="nav-open">
-              <p>Frankreich</p>
-              <div class="flex-main-button">
-                <button class="main-button" @click="ShowOverlay">Resultate</button>
-              </div>
-        </div>
       </div>
-
-
-
-
-
-
-
-
 
       <button class="filter-button">Surflevel</button>
       <button class="filter-button">Reisemonat</button>
     </div>
     <div class="flex-main-button">
-      <button class="main-button" v-bind:href="page">Mehr Filter</button>
-    </div>
+      <button class="main-button">Mehr Filter</button>
+    </div> -->
 
     <!-- Area Elements -->
     <div>
       <!-- Start Single Element Element -->
       <div class="flexbox-single-elements">
         <!-- <img class="single-element-like" src="../assets/img/like.png"> -->
-        <div class="single-element">
-          <img class="single-element-img" src="../assets/img/zarautz01.jpg">
-          <p class="category">Surf & Yoga</p>
-          <p class="single-element-title">Surf & Yoga Camp Le Pin Sec</p>
-          <p class="text-teaser">Das Surf & Yoga Camp in Le Pin Sec verkörpert ein neues Konzept, das Surfen, Yoga und gutes Essen verbindet. Zudem ist das Camp direkt am langen Sandstrand gelegen, gleich hinter einer Düne.</p>
+        <div class="single-element" @click="goToSingle()">
+          <img class="single-element-img" src="../assets/img/pinsec06.jpg">
+          <p class="category">{{ camps[0].category }}</p>
+          <p class="single-element-title">{{ camps[0].name }}</p>
+          <p class="text-teaser">{{ camps[0].lead }}</p>
+          <div class="fade"></div>
+        </div>
+      </div>
+      <!-- End Single Element -->
+
+      <!-- Start Single Element Element -->
+      <div class="flexbox-single-elements">
+        <!-- <img class="single-element-like" src="../assets/img/like.png"> -->
+        <div class="single-element" @click="goToSingle()">
+          <img class="single-element-img" src="../assets/img/pinsec06.jpg">
+          <p class="category">{{ camps[0].category }}</p>
+          <p class="single-element-title">{{ camps[0].name }}</p>
+          <p class="text-teaser">{{ camps[0].lead }}</p>
           <div class="fade"></div>
         </div>
       </div>
@@ -58,26 +57,43 @@
 </template>
 
 <script>
-export default {
+  export default {
 
 
     data() {
-      return{
-        isShowing: false
+      return {
+        camps: null
       }
     },
 
-  methods: {
-    goToUeber() {
-      this.$router.push({
-        name: 'ueber'
-      })
+    created() {
+      this.requestCamps()
     },
-    ShowOverlay() {
-      this.isShowing=!this.isShowing;
+
+    methods: {
+      goToUeber() {
+        this.$router.push({
+          name: 'ueber'
+        })
+      },
+      goToSingle() {
+        this.$router.push({
+          name: 'single'
+        })
+      },
+      requestCamps() {
+        // GET /someUrl
+        this.$http.get('http://localhost:3000/camps').then(response => {
+
+          // get body data
+          this.camps = response.body;
+
+        }, response => {
+          // error callback
+        });
+      }
     }
   }
-}
 </script>
 
 <style></style>

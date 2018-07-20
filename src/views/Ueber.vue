@@ -20,7 +20,7 @@
   </div>
     <div class="footer">
       <button @click="goHome()" class="footerButton">
-        <p class="footer-text">Back Home</p>
+        <p class="footer-text">Zurück ins Line-up</p>
       </button>
     </div>
 

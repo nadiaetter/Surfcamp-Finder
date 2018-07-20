@@ -1,28 +1,28 @@
 <template>
 <div class="main">
-  <p class="category-single-element">Kategorie</p>
+  <p class="category-single-element">{{ camps[0].category }}</p>
   <div class="container">
-    <img class="title-image-singleElement" src="../assets/img/morocco03.jpg">
+    <img class="title-image-singleElement" src="../assets/img/pinsec06.jpg">
     <div class="long-element-box">
-      <p class="title-box-singleElement">Surfcamp</p>
+      <p class="title-box-singleElement">{{ camps[0].name }}</p>
     </div>
   </div>
   <div class="container-content">
-    <p class="text">Anriss</p>
-    <p class="text">Liste mit Beschreibung</p>
+    <p class="text">{{ camps[0].lead }}</p>
+    <p class="text">{{ camps[0].list }}</p>
 
     <!-- Start Sidescroll 1 -->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/france07.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/france08.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/france09.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 1 -->
@@ -33,12 +33,12 @@
       <div>+</div>
     </div>
       <div v-if="showAccommondation">
-        <p class="text-inButton">Content für die Unterkunft</p>
+        <p class="text-inButton">{{ camps[0].accommondation }}</p>
       </div>
     </button>
 
 
-    <p class="text">Beschreibung Region</p>
+    <p class="text">{{ camps[0].details }}</p>
 
     <button @click="toggleMeals()" class="button-single-element">
       <div class="label-buttons">
@@ -46,22 +46,22 @@
       <div>+</div>
     </div>
       <div v-if="showMeals">
-        <p class="text-inButton">Content Verpflegung</p>
+        <p class="text-inButton">{{ camps[0].meals }}</p>
       </div>
     </button>
 
     <!-- Start Sidescroll 2-->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/essen01.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/essen02.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/essen03.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 2 -->
@@ -72,7 +72,7 @@
       <div>+</div>
     </div>
       <div v-if="showCourse">
-        <p class="text-inButton">Content für die Surfkurs</p>
+        <p class="text-inButton">{{ camps[0].surfcourse }}</p>
       </div>
     </button>
 
@@ -82,7 +82,7 @@
       <div>+</div>
     </div>
       <div v-if="showActivities">
-        <p class="text-inButton">Content für die Aktivitäten</p>
+        <p class="text-inButton">{{ camps[0].activities }}</p>
       </div>
     </button>
 
@@ -90,15 +90,15 @@
     <!-- Start Sidescroll 3-->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/pinsec07.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/pinsec05.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france_02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/pinsec06.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 3 -->
@@ -110,11 +110,9 @@
       <div>+</div>
     </div>
       <div v-if="showPrices">
-        <p class="text-inButton">Content für die Preise</p>
+        <p class="text-inButton">{{ camps[0].prices }}</p>
       </div>
     </button>
-
-    <div>Karte</div>
 
     <button @click="toggleArrival()" class="button-single-element">
       <div class="label-buttons">
@@ -122,7 +120,7 @@
       <div>+</div>
     </div>
       <div v-if="showArrival">
-        <p class="text-inButton">Content für die Anreise</p>
+        <p class="text-inButton">{{ camps[0].arrival }}</p>
       </div>
     </button>
 
@@ -132,7 +130,7 @@
       <div>+</div>
     </div>
       <div v-if="showContact">
-        <p class="text-inButton">Content für die Kontakte</p>
+        <p class="text-inButton">{{ camps[0].contact }}</p>
       </div>
     </button>
 
@@ -147,68 +145,65 @@
 </template>
 
 <script>
-export default {
+  export default {
 
+    data() {
+      return {
+        showContact: false,
+        showArrival: false,
+        showPrices: false,
+        showActivities: false,
+        showCourse: false,
+        showMeals: false,
+        showAccommondation: false,
+        camps: null
+      }
+    },
 
-  data() {
-    this.requestData()
-    return {
-      showContact: false,
-      showArrival: false,
-      showPrices: false,
-      showActivities: false,
-      showCourse: false,
-      showMeals: false,
-      showAccommondation: false
+    created() {
+      this.requestCamps()
+    },
+
+    methods: {
+      goToUeber() {
+        this.$router.push({
+          name: 'ueber'
+        })
+      },
+      toggleContact() {
+        this.showContact = !this.showContact;
+      },
+      toggleArrival() {
+        this.showArrival = !this.showArrival;
+      },
+      togglePrices() {
+        this.showPrices = !this.showPrices;
+      },
+      toggleActivities() {
+        this.showActivities = !this.showActivities;
+      },
+      toggleCourse() {
+        this.showCourse = !this.showCourse;
+      },
+      toggleMeals() {
+        this.showMeals = !this.showMeals;
+      },
+      toggleAccommondation() {
+        this.showAccommondation = !this.showAccommondation;
+      },
+      requestCamps() {
+        // GET /someUrl
+        this.$http.get('http://localhost:3000/camps').then(response => {
+
+          // get body data
+          this.camps = response.body;
+
+        }, response => {
+          // error callback
+        });
+      }
     }
-  },
-
-  methods: {
-    goToUeber() {
-      this.$router.push({
-        name: 'ueber'
-      })
-    },
-    toggleContact() {
-      this.showContact = !this.showContact;
-    },
-    toggleArrival() {
-      this.showArrival = !this.showArrival;
-    },
-    togglePrices() {
-      this.showPrices = !this.showPrices;
-    },
-    toggleActivities(){
-      this.showActivities = !this.showActivities;
-    },
-    toggleCourse() {
-      this.showCourse = !this.showCourse;
-    },
-    toggleMeals() {
-      this.showMeals = !this.showMeals;
-    },
-    toggleAccommondation() {
-      this.showAccommondation = !this.showAccommondation;
-    },
-
-
-
-
-
-    requestData()
-    {
-  // GET /someUrl
-  this.$http.get('http://localhost:3000/camps').then(response => {
-
-    // get body data
-    this.someData = response.body;
-
-  }, response => {
-    // error callback
-  });
-}
   }
-}
 </script>
 
 
