@@ -1,44 +1,47 @@
 <template>
 <div class="main">
-  <p class="category-single-element">{{ camps[0].category }}</p>
+  <p class="category-single-element">{{ camps[1].category }}</p>
   <div class="container">
-    <img class="title-image-singleElement" src="../assets/img/pinsec06.jpg">
+    <img class="title-image-singleElement" src="../assets/img/moliets01.jpg">
     <div class="long-element-box">
-      <p class="title-box-singleElement">{{ camps[0].name }}</p>
+      <p class="title-box-singleElement">{{ camps[1].name }}</p>
     </div>
   </div>
   <div class="container-content">
-    <p class="text">{{ camps[0].lead }}</p>
-<ul>
-  <li>
-    <p class="text">{{ camps[0].list01 }}</p>
-  </li>
-  <li>
-    <p class="text">{{ camps[0].list02 }}</p>
-  </li>
-  <li>
-    <p class="text">{{ camps[0].list03 }}</p>
-  </li>
-  <li>
-    <p class="text">{{ camps[0].list04 }}</p>
-  </li>
-  <li>
-    <p class="text">{{ camps[0].list05 }}</p>
-  </li>
-</ul>
+    <p class="text">{{ camps[1].lead }}</p>
+    <ul>
+      <li>
+        <p class="text">{{ camps[1].list01 }}</p>
+      </li>
+      <li>
+        <p class="text">{{ camps[1].list02 }}</p>
+      </li>
+      <li>
+        <p class="text">{{ camps[1].list03 }}</p>
+      </li>
+      <li>
+        <p class="text">{{ camps[1].list04 }}</p>
+      </li>
+      <li>
+        <p class="text">{{ camps[1].list05 }}</p>
+      </li>
+      <li>
+        <p class="text">{{ camps[1].list06 }}</p>
+      </li>
+    </ul>
 
     <!-- Start Sidescroll 1 -->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france07.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan01.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france08.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan02.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/france09.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan03.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 1 -->
@@ -49,12 +52,12 @@
       <div>+</div>
     </div>
       <div v-if="showAccommondation">
-        <p class="text-inButton">{{ camps[0].accommondation }}</p>
+        <p class="text-inButton">{{ camps[1].accommondation }}</p>
       </div>
     </button>
 
 
-    <p class="text">{{ camps[0].details }}</p>
+    <p class="text">{{ camps[1].details }}</p>
 
     <button @click="toggleMeals()" class="button-single-element">
       <div class="label-buttons">
@@ -62,22 +65,22 @@
       <div>+</div>
     </div>
       <div v-if="showMeals">
-        <p class="text-inButton">{{ camps[0].meals }}</p>
+        <p class="text-inButton">{{ camps[1].meals }}</p>
       </div>
     </button>
 
     <!-- Start Sidescroll 2-->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/essen01.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan04.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/essen02.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan05.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/essen03.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan06.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 2 -->
@@ -88,7 +91,7 @@
       <div>+</div>
     </div>
       <div v-if="showCourse">
-        <p class="text-inButton">{{ camps[0].surfcourse }}</p>
+        <p class="text-inButton">{{ camps[1].surfcourse }}</p>
       </div>
     </button>
 
@@ -98,7 +101,7 @@
       <div>+</div>
     </div>
       <div v-if="showActivities">
-        <p class="text-inButton">{{ camps[0].activities }}</p>
+        <p class="text-inButton">{{ camps[1].activities }}</p>
       </div>
     </button>
 
@@ -106,15 +109,15 @@
     <!-- Start Sidescroll 3-->
     <div class="slider">
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/pinsec07.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan07.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/pinsec05.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan08.jpg" @click="goToCountry()">
       </div>
 
       <div class="container-slider">
-        <img class="square-element" src="../assets/img/pinsec06.jpg" @click="goToCountry()">
+        <img class="square-element" src="../assets/img/mimizan09.jpg" @click="goToCountry()">
       </div>
     </div>
     <!-- End Sidescroll 3 -->
@@ -126,7 +129,7 @@
       <div>+</div>
     </div>
       <div v-if="showPrices">
-        <p class="text-inButton">{{ camps[0].prices }}</p>
+        <p class="text-inButton">{{ camps[1].prices }}</p>
       </div>
     </button>
 
@@ -136,7 +139,7 @@
       <div>+</div>
     </div>
       <div v-if="showArrival">
-        <p class="text-inButton">{{ camps[0].arrival }}</p>
+        <p class="text-inButton">{{ camps[1].arrival }}</p>
       </div>
     </button>
 
@@ -146,7 +149,7 @@
       <div>+</div>
     </div>
       <div v-if="showContact">
-        <p class="text-inButton">{{ camps[0].contact }}</p>
+        <p class="text-inButton">{{ camps[1].contact }}</p>
       </div>
     </button>
 

@@ -3,7 +3,7 @@
     <div class="home">
     <h1>Länder</h1>
 
-    <div class="container">
+    <div class="container" @click="goToList()">
       <img class="long-element" src="../assets/img/pinsec02.jpg">
       <div class="long-element-box">
         <p class="title-box">{{ countries[0] }}</p>
@@ -102,6 +102,11 @@ export default {
     goToUeber() {
       this.$router.push({
         name: 'ueber'
+      })
+    },
+    goToList() {
+      this.$router.push({
+        name: 'List'
       })
     },
     requestData() {

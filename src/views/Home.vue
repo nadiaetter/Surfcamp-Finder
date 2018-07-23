@@ -42,26 +42,27 @@
 
     <!-- start favorites -->
 
-    <div class="container">
+    <div class="container" @click="goToSingle01()">
       <img class="long-element" src="../assets/img/pinsec06.jpg">
       <div class="long-element-box">
         <p class="title-box">{{ camps[0].name }}</p>
       </div>
     </div>
 
-    <div class="container">
-      <img class="long-element" src="../assets/img/morocco01.jpg">
+    <div class="container" @click="goToSingle02()">
+      <img class="long-element" src="../assets/img/moliets01.jpg">
       <div class="long-element-box">
         <p class="title-box"> {{ camps[1].name }} </p>
       </div>
     </div>
 
     <div class="container">
-      <img class="long-element" src="../assets/img/moliets01.jpg">
+      <img class="long-element" src="../assets/img/morocco01.jpg">
       <div class="long-element-box">
         <p class="title-box">{{ camps[2].name }}</p>
       </div>
     </div>
+
     <div class="flex-main-button">
       <button class="main-button" @click="goToFavorites()">Beliebteste</button>
     </div>
@@ -129,9 +130,9 @@
 
     created() {
       this.requestCamps(),
-      this.requestCountries(),
-      this.requestCategories()
-        },
+        this.requestCountries(),
+        this.requestCategories()
+    },
 
 
     methods: {
@@ -143,6 +144,16 @@
       goToList() {
         this.$router.push({
           name: 'List'
+        })
+      },
+      goToSingle01() {
+        this.$router.push({
+          name: 'single'
+        })
+      },
+      goToSingle02() {
+        this.$router.push({
+          name: 'single02'
         })
       },
       goToCountry() {

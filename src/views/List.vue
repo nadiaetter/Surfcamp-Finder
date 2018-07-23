@@ -35,11 +35,11 @@
       <!-- Start Single Element Element -->
       <div class="flexbox-single-elements">
         <!-- <img class="single-element-like" src="../assets/img/like.png"> -->
-        <div class="single-element" @click="goToSingle()">
-          <img class="single-element-img" src="../assets/img/pinsec06.jpg">
-          <p class="category">{{ camps[0].category }}</p>
-          <p class="single-element-title">{{ camps[0].name }}</p>
-          <p class="text-teaser">{{ camps[0].lead }}</p>
+        <div class="single-element" @click="goToSingle02()">
+          <img class="single-element-img" src="../assets/img/moliets01.jpg">
+          <p class="category">{{ camps[1].category }}</p>
+          <p class="single-element-title">{{ camps[1].name }}</p>
+          <p class="text-teaser">{{ camps[1].lead }}</p>
           <div class="fade"></div>
         </div>
       </div>
@@ -79,6 +79,11 @@
       goToSingle() {
         this.$router.push({
           name: 'single'
+        })
+      },
+      goToSingle02() {
+        this.$router.push({
+          name: 'single02'
         })
       },
       requestCamps() {

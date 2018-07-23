@@ -1,4 +1,4 @@
-@import "partials/colors", "partials/font-styles", "partials/list-elements", "partials/map", "partials/footer", "partials/navbar", "partials/suche", "partials/filters", "partials/singleElement"; // @include google-font ("Open+Sans", "Work Sans");
+@import "partials/colors", "partials/font-styles", "partials/list-elements", "partials/footer", "partials/navbar", "partials/suche", "partials/filters", "partials/singleElement"; // @include google-font ("Open+Sans", "Work Sans");
 
  // ------ MAIN ELEMENTS ------//
 body {
@@ -37,6 +37,8 @@ body {
   text-transform: none;
   text-align: left;
   margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
 }
 
  // ------ FONTS ------//
