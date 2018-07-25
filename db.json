@@ -2,83 +2,50 @@
   "camps": [{
       "id": "camp01",
       "name": "Surf & Yoga Camp Le Pin Sec",
-      "main-image": "./img/pinsec01.jpg",
       "category": "Surf & Yoga",
       "country": "Frankreich",
       "lead": "Das Surf & Yoga Camp in Le Pin Sec verkörpert ein neues Konzept, das Surfen, Yoga und gutes Essen verbindet. Zudem ist das Camp direkt am langen Sandstrand gelegen, gleich hinter einer Düne.",
-      "single-page": {
-        "list": ["Aktivurlaub mit Fokus auf Sport und gutes Essen", "Erfahrene Crew, die für gute Stimmung sorgt", "Direkt am Strand gelegen", "Nur eine Minute zum Meer", "Umfangreiches Surfkursangebot"],
-        "slider01": ["./img/pinsec02.jpg", "./img/pinsec03.jpg", "./img/pinsec04.jpg"],
-        "accommondation": "Zelten 2.0 mit den Sheddies - gemütliche Holzkabinen für 2 Personen. Die Sheddies verfügen über ein Doppelbett mit einer 1,50m breiten Matratze. Ihr könnt darin aufrecht stehen, den Neoprenanzug für die nächste Surfsession anziehen und euer Gepäck verstauen. Die perfekte Unterkunft für alle, die etwas mehr Komfort als beim Zelten haben wollen.",
-        "details": "In der Region um Arcachon findet ihr viele schöne Orte entlang der Küste mit leeren Stränden und unzähligen unbekannten Surfspots. Le Pin Sec ist daher ein Muss für Surfer, die die Strände Südwestfrankreichs erkunden wollen. Der Strand von Le Pin Sec ist langgezogen und mit alten Bunkern gespickt. Da es mehrere Peaks gibt, verteilen sich Surfer und Badegäste gut. Diesen Strand solltet ihr unbedingt erkunden, denn je nach Gezeiten trefft ihr an verschiedenen Stellen  auf wunderschöne Wellen! ",
-        "meals": "Halbpension (inklusive): Wer will im Urlaub schon kochen? Mit unserer Halbpension bekommt ihr ein leckeres Frühstücksbuffet sowie ein ausgewogenes Abendessen. Das tägliche Halbpensionspaket ist bereits im Preis inbegriffen.",
-        "surfcourse": "Die Surfschule des Surf & Yoga Camps in Le Pin Sec sorgt für Sicherheit und Spaß beim Surfen! Bei den erfahrenen Surfcoaches seid ihr in besten Hände. Sie verfügen über alle nötigen Lizenzen, sind ausgebildete Lifeguards und mit viel Erfahrung und Motivation dabei.",
-        "activities": "Surfen und Yoga ergänzen sich perfekt! Nicht zuletzt deswegen wurde das Surf & Yoga Le Pin Sec ins Leben gerufen. Yoga hilft dir dabei Balance, Kraft und Entspannung zu finden. Die Übungen kräftigen dich für einen besseren Takeoff und auch dein Muskelkater bekommst du mit Yoga schneller in den Griff. Klar dass ihr auch eine ausgrägte Balance braucht, um euch lange in einer Welle zu halten.",
-        "prices": "1 Woche schon ab 199 €! Inklusive:7 Übernachtungen im 2er Sheddie, 4 Yoga Sessions, Halbpension, Long-/Skateboard Verleih & Strandspiele, Miniramp und Bar im Camp",
-        "arrival": "Wir bieten als zusätzlichen Service an, den günstigsten Flug für euch zu finden. Wir prüfen Preise und Verfügbarkeiten und melden uns mit einem konkreten Angebot bei euch zurück! Natürlich ist es auch möglich, mit dem Auto nach Le Pin Sec zu kommen.",
-        "contact": "60 Le Pin Sec-Nord, 33990 Naujac - sur - Mer, Frankreich, Telefon: 0023 / 345 2950, surfcamppinsec.com "
-      },
-      "price": 199,
-      "month": ["Juni", "Juli", "August", "September", "Oktober"],
-      "surflevel": ["Einsteiger", "Anfänger", "Fortgeschritten"],
-      "audience": ["Partypeople", "Solo-Reisende", "Paare", "Familien"],
-      "accommondation": "Zeltplatz",
-      "meals": ["Frühstück & Abendessen", "All-Inclusive"]
+      "list01": "Aktivurlaub mit Fokus auf Sport und gutes Essen",
+      "list02": "Erfahrene Crew, die für gute Stimmung sorgt",
+      "list03": "Direkt am Strand gelegen",
+      "list04": "Nur eine Minute zum Meer",
+      "list05":  "Umfangreiches Surfkursangebot",
+      "accommondation": "Zelten 2.0 mit den Sheddies - gemütliche Holzkabinen für 2 Personen. Die Sheddies verfügen über ein Doppelbett mit einer 1,50m breiten Matratze. Ihr könnt darin aufrecht stehen, den Neoprenanzug für die nächste Surfsession anziehen und euer Gepäck verstauen. Die perfekte Unterkunft für alle, die etwas mehr Komfort als beim Zelten haben wollen.",
+      "details": "In der Region um Arcachon findet ihr viele schöne Orte entlang der Küste mit leeren Stränden und unzähligen unbekannten Surfspots. Le Pin Sec ist daher ein Muss für Surfer, die die Strände Südwestfrankreichs erkunden wollen. Der Strand von Le Pin Sec ist langgezogen und mit alten Bunkern gespickt. Da es mehrere Peaks gibt, verteilen sich Surfer und Badegäste gut. Diesen Strand solltet ihr unbedingt erkunden, denn je nach Gezeiten trefft ihr an verschiedenen Stellen  auf wunderschöne Wellen! ",
+      "meals": "Halbpension (inklusive): Wer will im Urlaub schon kochen? Mit unserer Halbpension bekommt ihr ein leckeres Frühstücksbuffet sowie ein ausgewogenes Abendessen. Das tägliche Halbpensionspaket ist bereits im Preis inbegriffen.",
+      "surfcourse": "Die Surfschule des Surf & Yoga Camps in Le Pin Sec sorgt für Sicherheit und Spaß beim Surfen! Bei den erfahrenen Surfcoaches seid ihr in besten Hände. Sie verfügen über alle nötigen Lizenzen, sind ausgebildete Lifeguards und mit viel Erfahrung und Motivation dabei.",
+      "activities": "Surfen und Yoga ergänzen sich perfekt! Nicht zuletzt deswegen wurde das Surf & Yoga Le Pin Sec ins Leben gerufen. Yoga hilft dir dabei Balance, Kraft und Entspannung zu finden. Die Übungen kräftigen dich für einen besseren Takeoff und auch dein Muskelkater bekommst du mit Yoga schneller in den Griff. Klar dass ihr auch eine ausgrägte Balance braucht, um euch lange in einer Welle zu halten.",
+      "prices": "1 Woche schon ab 199 €! Inklusive:7 Übernachtungen im 2er Sheddie, 4 Yoga Sessions, Halbpension, Long-/Skateboard Verleih & Strandspiele, Miniramp und Bar im Camp",
+      "arrival": "Wir bieten als zusätzlichen Service an, den günstigsten Flug für euch zu finden. Wir prüfen Preise und Verfügbarkeiten und melden uns mit einem konkreten Angebot bei euch zurück! Natürlich ist es auch möglich, mit dem Auto nach Le Pin Sec zu kommen.",
+      "contact": "60 Le Pin Sec-Nord, 33990 Naujac - sur - Mer, Frankreich, Telefon: 0023 / 345 2950, surfcamppinsec.com "
     },
 
     {
       "id": "camp02",
-      "name": "Premium Surfcamp Marokko",
-      "main-image": "./img/morocco01.jpg",
-      "category": "Premium",
-      "country": "Marokko",
-      "lead": "Die Luxusvariante für den Surfurlaub mit allem Komfort! Surfspot direkt vor der Tür, mit Pool, Golfplatz, Spa, schicker Unterkunft und vielem mehr.",
-      "single-page": {
-        "list": ["Neu gebautes, sehr schönes Resort direkt am Strand und Surfspot", "Bungalows und Zimmer alle mit Meerblick und großzügig verteilt", "Moderne Einrichtung mit allem Komfort, wie Flatscreen, WLAN, Klimaanlage, neu ausgestattete Badezimmer uvm.", "Surfkurse und Surfguiding mit Spot direkt am Resort-Strand und vielen weiteren in der Umgebung", "Spa, Sauna, Hamam und Yoga zum Entspannen und Erholen"],
-        "slider01": ["./img/morocco02.jpg", "./img/morocco03.jpg", "./img/morocco04.jpg"],
-        "accommondation": "Die insgesamt 16 Zimmer befinden sich in 2 Gebäuden, die alle seitlichen oder frontalen Meerblick haben. Die 23 Quadratmeter großen Räume sind mit 3 bequemen Einzelbetten ausgestattet, die 90 x 200 cm groß sind. Euch stehen neben einem schönen Badezimmer auch WLAN, ein Flatscreen mit internationalen Programmen sowie eine Klimaanlage bzw. Heizung zur Verfügung. Im Bad gibt es einen Fön und Schminkspiegel.",
-        "details": "Das 5 Hektar große Premium Surfcamp Marokko befindet sich direkt am Panorama Beach mit Blick auf die Surfspots Panorama Point und Anchor Point. Näher dran sein geht nicht! In der unmittelbaren Umgebung befinden sich zudem noch einige weitere top Surfspots, die einen Besuch wert sind. Das Stadtzentrum von Taghazout ist nur einen Kilometer entfernt und gleich neben der Resortanlage befindet sich ein weltklasse 18-Loch Golfplatz. In beliebten Surferort Taghazout findet ihr Cafés, Restaurants und Shops.",
-        "meals": "Im Premium Surfresort Marokko könnt ihr zwischen Halb- und Vollpension wählen. Das Frühstück ist bereits immer im Preis inbegriffen. Das Mittags- und Abendessen finden im Buffetrestaurant statt. Zusätzlich gibt es auch noch ein à la carte Restaurant.",
-        "surfcourse": "In den Surfkursen kannst du direkt am Strand vor dem Resort surfen lernen. Mit unseren erfahrenen Surflehrern wird es nicht lange dauern bis du deine ersten kleinen Wellen surfst!",
-        "activities": "Was könnte es im Urlaub Schöneres geben als in eine Phase der Tiefenentspannung einzutauchen? Die perfekte Ergänzung zum aktiven Part ist eine Massage oder Anwendung. Die Massagetherapeuten und geschulten Kosmetiker sorgen für den ultimativen Erholungsfaktor in eurem Urlaub.",
-        "prices": "1 Woche inkl. Frühstück schon ab 249 €! 7 Nächte in gebuchter Unterkunft, Tägliches FrühstückLunchpaket während des Kurses, Kostenfreie Nutzung von Poolanlage & Gym, Kostenloses WLAN",
-        "arrival": "Wir bieten als zusätzlichen Service an, den günstigsten Flug für euch zu finden. Wir prüfen Preise und Verfügbarkeiten und melden uns mit einem konkreten Angebot bei euch zurück! Natürlich ist es auch möglich, mit dem Auto nach Le Pin Sec zu kommen.",
-        "contact": "La Resort Maroc, 33990 Taghazout, Morocco, surmaroc.com "
-      },
-      "price": 249,
-      "month": ["Oktober", "November", "Dezember", "Januar", "Februar", "März", "April"],
-      "surflevel": ["Einsteiger", "Anfänger", "Fortgeschritten"],
-      "audience": ["Solo-Reisende", "Paare", "No-Party"],
-      "accommondation": "Bungalows",
-      "meals": ["All-Inclusive"]
-    },
-
-    {
-      "id": "camp03",
-      "name": "Moliets Mobile Homes",
-      "main-image": "./img/moliets01.jpg",
-      "category": "Best Price Camp",
+      "name": "Surflodge Mimizan",
+      "category": "Premium Surfcamp",
       "country": "Frankreich",
-      "lead": "Unsere Moliets Mobile Homes bieten den perfekten Urlaubsmix aus Surfen, Strand, Partys, Sport und chilliger Surfcamp Atmosphäre!",
-
-      "single-page": {
-        "list": ["Unterkunft mit Einzel- & Doppelzimmern, gemütlicher Veranda, Küche und Bad", "Beste Lage: nur ca. 400 m vom Strand der Promenade Ideal für Gruppen, Familien und Freunde", "Relaxte Surfcamp-Atmosphäre im kleinen Surf Village mit 15 Mobile Homes", "Surfkurse für alle Levels – komplett mit Quiksilver Material ", "Mit Aktivitäten wie Beachvolleyball, Tischtennis, Longboarden und Ausflügen "],
-        "slider01": ["./img/moliets02.jpg", "./img/moliets03.jpg", "./img/moliets04.jpg"],
-        "accommondation": "Unsere Moliets Mobile Homes bieten den perfekten Urlaubsmix aus Surfen, Strand, Partys, Sport und chilliger Surfcamp Atmosphäre!",
-        "details": "Das am französischen Atlantik gelegene Moliets Plage ist der perfekte Ort, um einen chilligen Surfurlaub zu verbringen oder einen Surftrip zu starten. In unmittelbarer Nähe befinden sich das europäische Surfmekka mit weltbekannten Surfspots wie Biarritz oder Hossegor.",
-        "meals": "Frischer Kaffee, Tee, duftendes Baguette, eine Wurst- und Käseplatte, Obst und Müsli – all das findet ihr am großen Frühstücksbuffet vor. Das sympathische Team unserer Surf-Kitchen bereitet alles für euch vor, so dass ihr euch für eure Surf Sessions stärken könnt. Am Buffet könnt ihr euch auch ein leckeres Lunchpaket zusammenstellen, das ihr euch dann am Strand schmecken lassen könnt. Die Gerichte sind ausgewogen und werden jeden Tag aus frischen Zutaten zubereitet, ohne Geschmacksverstärker natürlich.",
-        "surfcourse": "Surfkurse auf top Niveau bekommt ihr bei uns am Beachbreak von Moliets Plage! Im Surfkurs Basic geht ihr an 5 Tagen ins Wasser und der Kurs umfasst ingesamt 10 Stunden Praxis und Theorie. Bei uns lernt ihr von den Besten!",
-        "activities": "Im Schatten des Pinienwaldes, der das Surfcamp beheimatet, rollen wir unsere Yogamatten aus. Die Yoga Sessions werden im Sommer angeboten, wenn ein Yogalehrer vor Ort ist und können dann spontan dazugebucht werden. Das Yoga hilft euch, eure Muskeln zu dehnen, Kraft aufzubauen und euren Take-Off beim Surfen zu verbessern.",
-        "prices": "1 Woche inkl. Vollverpflegung & Busanreise schon ab 419 €!",
-        "arrival": "Die Busanreise ist in der Hauptsaison im Reisepreis enthalten! Je nach Abfahrtsort wird ein Abfahrtsortzuschlag erhoben. Siehe Übersicht!",
-        "contact": "Le Pin Sec, 33990 Naujac - sur - Mer, Frankreich, Telefon: 0023 / 345 2950, surfcamppinsec.com "
-      },
-      "price": 419,
-      "month": ["Juni", "Juli", "August", "September", "Oktober"],
-      "surflevel": ["Einsteiger", "Anfänger", "Fortgeschritten"],
-      "audience": ["Partypeople", "Solo-Reisende", "Paare", "Familien"],
-      "accommondation": ["Bungalows", "Surfhouse"],
-      "meals": ["All-Inclusive"]
+      "lead": "Unsere Surflodge Mimizan bietet den perfekten Urlaubsmix aus Surfen, Strand, Partys, Sport und chilliger Surfcamp Atmosphäre!",
+      "list01": "Unterkunft mit Einzel- & Doppelzimmern",
+      "list02": "gemütlicher Veranda",
+      "list03": "Küche und Bad, Beste Lage: nur ca. 400m vom Strand der Promenade Ideal für Gruppen, Familien und Freunde",
+      "list04": "Relaxte Surfcamp-Atmosphäre im kleinen Surf Village mit 15 Mobile Homes",
+      "list05":  "Surfkurse für alle Levels – komplett mit Quiksilver Material",
+      "list06": "Mit Aktivitäten wie Beachvolleyball Tischtennis, Longboarden und Ausflügen",
+      "accommondation": "Unsere Surflodge Mimizan bieten den perfekten Urlaubsmix aus Surfen, Strand, Partys, Sport und chilliger Surfcamp Atmosphäre!",
+      "details": "Das am französischen Atlantik gelegene Mimizan Plage ist der perfekte Ort, um einen chilligen Surfurlaub zu verbringen oder einen Surftrip zu starten. In unmittelbarer Nähe befinden sich das europäische Surfmekka mit weltbekannten Surfspots wie Biarritz oder Hossegor.",
+      "meals": "Frischer Kaffee, Tee, duftendes Baguette, eine Wurst- und Käseplatte, Obst und Müsli – all das findet ihr am großen Frühstücksbuffet vor. Das sympathische Team unserer Surf-Kitchen bereitet alles für euch vor, so dass ihr euch für eure Surf Sessions stärken könnt. Am Buffet könnt ihr euch auch ein leckeres Lunchpaket zusammenstellen, das ihr euch dann am Strand schmecken lassen könnt. Die Gerichte sind ausgewogen und werden jeden Tag aus frischen Zutaten zubereitet, ohne Geschmacksverstärker natürlich.",
+      "surfcourse": "Surfkurse auf top Niveau bekommt ihr bei uns am Beachbreak von Mimizan Plage! Im Surfkurs Basic geht ihr an 5 Tagen ins Wasser und der Kurs umfasst ingesamt 10 Stunden Praxis und Theorie. Bei uns lernt ihr von den Besten!",
+      "activities": "Im Schatten des Pinienwaldes, der das Surfcamp beheimatet, rollen wir unsere Yogamatten aus. Die Yoga Sessions werden im Sommer angeboten, wenn ein Yogalehrer vor Ort ist und können dann spontan dazugebucht werden. Das Yoga hilft euch, eure Muskeln zu dehnen, Kraft aufzubauen und euren Take-Off beim Surfen zu verbessern.",
+      "prices": "1 Woche inkl. Vollverpflegung & Busanreise schon ab 419 €!",
+      "arrival": "Die Busanreise ist in der Hauptsaison im Reisepreis enthalten! Je nach Abfahrtsort wird ein Abfahrtsortzuschlag erhoben. Siehe Übersicht!",
+      "contact": "Surflife Surfvakanties Surfcamp Mimizan, Boulevard de l'Atlantique, 40200 Mimizan-Plage"
     }
-  ]
+  ],
+
+  "categories": ["Premium Surfcamp", "Surf & Yoga", "Family Surfcamp", "Jugend Surfcamp", "Coldwater Surfcamp", "Best Price Camp"],
+
+
+  "countries": ["Frankreich", "Spanien", "Portugal", "Island", "England", "Irland", "Kanarische Inseln", "Marokko", "Indonesien", "Costa Rica", "Nicaragua", "Panama", "USA"]
+
 }
