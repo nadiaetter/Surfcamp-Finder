@@ -40,7 +40,27 @@
       "prices": "1 Woche inkl. Vollverpflegung & Busanreise schon ab 419 €!",
       "arrival": "Die Busanreise ist in der Hauptsaison im Reisepreis enthalten! Je nach Abfahrtsort wird ein Abfahrtsortzuschlag erhoben. Siehe Übersicht!",
       "contact": "Surflife Surfvakanties Surfcamp Mimizan, Boulevard de l'Atlantique, 40200 Mimizan-Plage"
-    }
+    },
+    {
+     "id": "camp03",
+     "name": "Sea View Surfcamp Marokko",
+     "category": "Premium Surfcamp",
+     "country": "Marokko",
+     "lead": "Die Luxusvariante für den Surfurlaub mit allem Komfort! Surfspot direkt vor der Tür, mit Pool, Golfplatz, Spa, schicker Unterkunft und vielem mehr.",
+     "list01": "Neu gebautes, sehr schönes Resort direkt am Strand und Surfspot",
+     "list02": "Bungalows und Zimmer alle mit Meerblick und großzügig verteilt",
+     "list03": "Moderne Einrichtung mit allem Komfort, wie Flatscreen, WLAN, Klimaanlage, neu ausgestattete Badezimmer uvm.",
+     "list04": "Surfkurse und Surfguiding mit Spot direkt am Resort-Strand und vielen weiteren in der Umgebung",
+     "list05":  "Spa, Sauna, Hamam und Yoga zum Entspannen und Erholen",
+     "accommondation": "Die insgesamt 16 Zimmer befinden sich in 2 Gebäuden, die alle seitlichen oder frontalen Meerblick haben. Die 23 Quadratmeter großen Räume sind mit 3 bequemen Einzelbetten ausgestattet, die 90 x 200 cm groß sind. Euch stehen neben einem schönen Badezimmer auch WLAN, ein Flatscreen mit internationalen Programmen sowie eine Klimaanlage bzw. Heizung zur Verfügung. Im Bad gibt es einen Fön und Schminkspiegel.",
+     "details": "Das 5 Hektar große Premium Surfcamp Marokko befindet sich direkt am Panorama Beach mit Blick auf die Surfspots Panorama Point und Anchor Point. Näher dran sein geht nicht! In der unmittelbaren Umgebung befinden sich zudem noch einige weitere top Surfspots, die einen Besuch wert sind. Das Stadtzentrum von Taghazout ist nur einen Kilometer entfernt und gleich neben der Resortanlage befindet sich ein weltklasse 18-Loch Golfplatz. In beliebten Surferort Taghazout findet ihr Cafés, Restaurants und Shops.",
+     "meals": "Im Premium Surfresort Marokko könnt ihr zwischen Halb- und Vollpension wählen. Das Frühstück ist bereits immer im Preis inbegriffen. Das Mittags- und Abendessen finden im Buffetrestaurant statt. Zusätzlich gibt es auch noch ein à la carte Restaurant.",
+     "surfcourse": "In den Surfkursen kannst du direkt am Strand vor dem Resort surfen lernen. Mit unseren erfahrenen Surflehrern wird es nicht lange dauern bis du deine ersten kleinen Wellen surfst!",
+     "activities": "Was könnte es im Urlaub Schöneres geben als in eine Phase der Tiefenentspannung einzutauchen? Die perfekte Ergänzung zum aktiven Part ist eine Massage oder Anwendung. Die Massagetherapeuten und geschulten Kosmetiker sorgen für den ultimativen Erholungsfaktor in eurem Urlaub.",
+     "prices": "1 Woche inkl. Frühstück schon ab 249 €! 7 Nächte in gebuchter Unterkunft, Tägliches FrühstückLunchpaket während des Kurses, Kostenfreie Nutzung von Poolanlage & Gym, Kostenloses WLAN",
+     "arrival": "Wir bieten als zusätzlichen Service an, den günstigsten Flug für euch zu finden. Wir prüfen Preise und Verfügbarkeiten und melden uns mit einem konkreten Angebot bei euch zurück! Natürlich ist es auch möglich, mit dem Auto nach Le Pin Sec zu kommen.",
+     "contact": "La Resort Maroc, 33990 Taghazout, Morocco, surmaroc.com "
+   }
   ],
 
   "categories": ["Premium Surfcamp", "Surf & Yoga", "Family Surfcamp", "Jugend Surfcamp", "Coldwater Surfcamp", "Best Price Camp"],
