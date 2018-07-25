@@ -94,7 +94,7 @@ export default {
   },
 
   created() {
-    this.requestData()
+    this.requestCountries()
   },
 
 
@@ -109,9 +109,9 @@ export default {
         name: 'List'
       })
     },
-    requestData() {
+    requestCountries() {
       // GET /someUrl
-      this.$http.get('http://localhost:3000/countries').then(response => {
+      this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/countries').then(response => {
 
         // get body data
         this.countries = response.body;

@@ -129,7 +129,7 @@
     },
 
     created() {
-      this.requestCamps(),
+        this.requestCamps(),
         this.requestCountries(),
         this.requestCategories()
     },
@@ -173,7 +173,7 @@
       },
       requestCamps() {
         // GET /someUrl
-        this.$http.get('http://localhost:3000/camps').then(response => {
+        this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/camps').then(response => {
 
           // get body data
           this.camps = response.body;
@@ -186,7 +186,7 @@
       },
       requestCountries() {
         // GET /someUrl
-        this.$http.get('http://localhost:3000/countries').then(response => {
+        this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/countries').then(response => {
 
           // get body data
           this.countries = response.body;
@@ -199,7 +199,7 @@
       },
       requestCategories() {
         // GET /someUrl
-        this.$http.get('http://localhost:3000/categories').then(response => {
+        this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/categories').then(response => {
 
           // get body data
           this.categories = response.body;

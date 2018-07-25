@@ -63,9 +63,8 @@ export default {
   },
 
   created() {
-    this.requestData()
+    this.requestCamps()
   },
-
 
   methods: {
     goToSingle() {
@@ -78,9 +77,9 @@ export default {
         name: 'single02'
       })
     },
-    requestData() {
+    requestCamps() {
       // GET /someUrl
-      this.$http.get('http://localhost:3000/camps').then(response => {
+      this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/camps').then(response => {
 
         // get body data
         this.camps = response.body;

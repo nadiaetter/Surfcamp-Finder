@@ -2,9 +2,7 @@
   <div class="navigation">
     <div id="nav">
       <div id="search-icon">
-      <router-link to="/suche">
         <img class="nav-element" src="../assets/img/search.png">
-      </router-link>
     </div>
       <router-link to="/">
         <img id="pinecone" src="../assets/img/pinecone.png">

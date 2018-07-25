@@ -5,8 +5,6 @@ import Home from './views/Home.vue'
 import Favoriten from './views/favoriten.vue'
 import Laender from './views/Laender.vue'
 import Kategorien from './views/Kategorien.vue'
-import Karte from './views/Karte.vue'
-import Suche from './views/Suche.vue'
 import List from './views/List.vue'
 import Ueber from './views/Ueber.vue'
 import Single from './views/Single.vue'
@@ -37,16 +35,6 @@ export default new Router({
       path: '/kategorien',
       name: 'kategorien',
       component: Kategorien
-    },
-    {
-      path: '/karte',
-      name: 'karte',
-      component: Karte
-    },
-    {
-      path: '/suche',
-      name: 'suche',
-      component: Suche
     },
     {
       path: '/list',

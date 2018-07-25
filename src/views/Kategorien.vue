@@ -64,7 +64,7 @@
     },
 
     created() {
-      this.requestData()
+      this.requestCategories()
     },
 
 
@@ -74,9 +74,9 @@
           name: 'ueber'
         })
       },
-      requestData() {
+      requestCategories() {
         // GET /someUrl
-        this.$http.get('http://localhost:3000/categories').then(response => {
+        this.$http.get('https://my-json-server.typicode.com/nadiaetter/Surfcamp-Finder/categories').then(response => {
 
           // get body data
           this.categories = response.body;
