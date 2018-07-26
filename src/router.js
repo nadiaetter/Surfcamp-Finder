@@ -11,7 +11,6 @@ import Single from './views/Single.vue'
 import Single02 from './views/Single02.vue'
 
 
-
 Vue.use(Router)
 Vue.use(VueResource)
 
