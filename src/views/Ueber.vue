@@ -12,7 +12,7 @@
     <a class="linkInText" href="https://nadiaetter.ch/" target="_blank">Homepage</a>.
 
       <br><br>
-    Oder nimm <a class="linkInText" href="mailto:media@nadiaetter.c">Kontakt</a> mit mir auf! Ich freue mich auf jede Nachricht.
+    Oder nimm <a class="linkInText" href="mailto:media@nadiaetter.ch">Kontakt</a> mit mir auf! Ich freue mich über jede Nachricht.
 
 
 

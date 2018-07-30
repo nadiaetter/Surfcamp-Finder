@@ -1,10 +1,7 @@
-@mixin google-font($font) {
-  $font: unquote($font);
-  @import url('https://fonts.googleapis.com/css?family=#{$font}')
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans');
 
-$main-font: "Open Sans";
-$secondary-font: "Work Sans";
+$main-font: "Open Sans", Helvetica, Arial, sans-serif;;
+$secondary-font: "Work Sans", Helvetica, Arial, sans-serif;;
 
 h1 {
   color: $main-color;
